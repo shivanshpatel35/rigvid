@@ -30,7 +30,7 @@ This demo code reproduces the pipeline end‑to‑end in the **camera frame**.
 We provide an installation script that clones and installs both RollingDepth and FoundationPose in one environment:
 
 ```bash
-git clone https://github.com/rigvid-robot/rigvid.git
+git clone https://github.com/shivanshpatel35/rigvid.git
 cd rigvid
 ./install.sh      # creates and configures 'rigvid' conda env
 ```
