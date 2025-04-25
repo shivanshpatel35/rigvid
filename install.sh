@@ -46,7 +46,7 @@ bash script/install_diffusers_dev.sh
 popd >/dev/null
 
 # Set PYTHONPATH for RollingDepth
-export PYTHONPATH="$(pwd)/RollingDepth:${PYTHONPATH}"
+export PYTHONPATH="$(pwd)/RollingDepth:${PYTHONPATH:-}"
 
 # Install FoundationPose dependencies
 echo "Installing FoundationPose dependencies..."
